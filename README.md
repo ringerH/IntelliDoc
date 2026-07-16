@@ -55,6 +55,7 @@ I'd rather name these than pretend they don't exist:
 1. **Lock granularity.** The loading lock is coarse right now — a cache hit can end up blocking behind a concurrent cache miss's model load. Double-checked locking (lock-free reads on cache hits) fixes this.
 2. **Unbounded model cache.** Nothing currently evicts old `(backend, version)` entries, so a client cycling through many versions could grow memory without bound. An LRU cache with a size cap is the fix.
 3. **Synchronous config I/O.** Workers read `models/active_config.json` on every request. Under high throughput, that's needless disk I/O on the hot path — better to cache in memory and reload on a filesystem-watcher or timestamp-check trigger instead.
+4. **High-resolution latency scaling.** OCR execution time (EasyOCR) scales with image resolution and text density because text line extraction and recognition are executed sequentially on detected bounding boxes. Implementing an image preprocessing wrapper to cap maximum dimensions (e.g. max 2048px) before inference would stabilize latency.
 
 ---
 
