@@ -1,6 +1,6 @@
 # Document Intelligence Service
 
-A computer vision pipeline for document layout analysis and OCR — built with FastAPI, YOLOv8, and EasyOCR — with a thread-safe model-serving layer that handles runtime backend switching (PyTorch vs. ONNX Runtime) and configuration sharing across multi-worker deployments.
+A computer vision pipeline for document layout analysis and OCR built with FastAPI, YOLOv8, and EasyOCR with a thread-safe model-serving layer that handles runtime backend switching (PyTorch vs. ONNX Runtime) and configuration sharing across multi-worker deployments.
 
 I built this to work through a specific set of problems that show up when you put a multi-model CV pipeline behind a real API: concurrent requests fighting over shared model state, OCR latency that scales badly with document complexity, and configuration that silently desyncs across worker processes. Below is what it does and how.
 
