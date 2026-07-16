@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.noseids
+
+# Environment / secrets
+.env
+.active_config.json
+models/active_config.json
+
+# Machine Learning models (heavy binaries, generated via export script)
+models/
+yolov8n.pt
+yolov8n.onnx
+
+# IDE files
+.vscode/
+.idea/
+.gemini/

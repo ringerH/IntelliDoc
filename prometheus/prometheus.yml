@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 5s # Scrape frequently for real-time load testing verification
+  evaluation_interval: 5s
+
+scrape_configs:
+  - job_name: "document-intelligence-api"
+    static_configs:
+      - targets: ["api-service:8000"]

@@ -1,0 +1,15 @@
+venv/
+.git/
+.gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.env
+tests/
+load_tests/
+scratch/
+yolov8n.pt
+yolov8n.onnx
+*.log

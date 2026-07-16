@@ -1,0 +1,21 @@
+{
+    "metadata": {
+        "backend": "onnx",
+        "classifier_version": "v1",
+        "detector_version": "v1",
+        "image_width": 1024,
+        "image_height": 1024
+    },
+    "classification": {
+        "predicted_class": "id",
+        "confidence": 0.3751320242881775,
+        "probabilities": {
+            "invoice": 0.23390807211399078,
+            "receipt": 0.18926623463630676,
+            "id": 0.3751320242881775,
+            "form": 0.2016935795545578
+        }
+    },
+    "regions": [],
+    "full_text": "GROCERY  MART YOUR DAILy FRESH STOP 145 MARKET  STREET , CITYVILLE, CA 90001 Tel: (555)  123-4567 REG: 004 TRN: 8872 CASHIER: SARAH DATE: 12/10/23 10.48 AM QTY DESCRIPTION PRICE TOTAL ORGANIC BANANAS  (LB) S0.79 S0..79 WHOLE Milk (1 GAL) 53.49 53.49 DOZEN LARGE  EGGS 52.99 S5.98 WHOLE WHEAT  BREAD S2.89 S2.89 SPINACH (BAG) 53..29 S3..29 GREEK   YOGURT S1.15 53.45 CHICKEN BREASTS (2.5 LB) S4.99/LB $12.48 2 TOMATOES ON VINE  (LB) S1..99/LB S3.98 CEREAL  BOX 54.50 54.50 COFFEE  BEANS (12 O2) S8.99 S8.99 SUBTOTAL 549.84 SALES TAX (7..57) 53.74 TOTAL S53. 58 PAId: DEBIT CARD 853.58 CHANGE SO.00 CARD # tttttt*****4567 AUTh #= 912345 ITEMS SOLD: 14 THANk   YOU FOR SHOPPING AT GROCERY MART ! PLEASE VISIT US AGAIN! RETURN POLICY: 30 Days WITh RECEIPT"
+}

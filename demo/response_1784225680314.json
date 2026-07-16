@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "backend": "onnx",
+    "classifier_version": "v1",
+    "detector_version": "v1",
+    "image_width": 1897,
+    "image_height": 1195,
+    "processing_time_sec": 30.421466699999655
+  },
+  "classification": {
+    "predicted_class": "id",
+    "confidence": 0.34349167346954346,
+    "probabilities": {
+      "invoice": 0.27907928824424744,
+      "receipt": 0.23881042003631592,
+      "id": 0.34349167346954346,
+      "form": 0.138618603348732
+    }
+  },
+  "regions": [],
+  "full_text": "314rr fatT HRT RTR INCOME TAX DEPARTMENT GOVT OF INDIA Rri &l %iG *13 Permanent Account Number Card KHCPK6132G 7T/ Name HILLOL PRATIM KALITA fqat #T HTT Father'$ Name DEBENDRA NATH KALITA 4 &rrid Date ofairth 21)X.4 &at _ kallta 27/12/2002 rrer Signature 104816"
+}

@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "backend": "onnx",
+    "classifier_version": "v1",
+    "detector_version": "v1",
+    "image_width": 330,
+    "image_height": 415,
+    "processing_time_sec": 6.109820200001195
+  },
+  "classification": {
+    "predicted_class": "id",
+    "confidence": 0.35536444187164307,
+    "probabilities": {
+      "invoice": 0.2526734471321106,
+      "receipt": 0.2931746542453766,
+      "id": 0.35536444187164307,
+      "form": 0.09878742694854736
+    }
+  },
+  "regions": [
+    {
+      "box": [
+        7,
+        41,
+        124,
+        196
+      ],
+      "class": "person",
+      "text": "",
+      "confidence": 0
+    }
+  ],
+  "full_text": "ARO: ROHANIA CARTE DE IDENTITATE  Eo a IEANITI Caen MANOLE CORINA OANA Rou 1985 2830703460094 Spi236338 \"66 04\"2635 56362 SPECIMEN 85'*03\" 2025\"\" 6G.. IDRousp123523702830703460094<< 8307037F3503041R0U<<<<<<<<<<<6 MANOLE<<CORInA<IOANA<<<<<<<<<<"
+}

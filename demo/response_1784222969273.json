@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "backend": "onnx",
+    "classifier_version": "v1",
+    "detector_version": "v1",
+    "image_width": 2883,
+    "image_height": 1799,
+    "processing_time_sec": 92.88591270000052
+  },
+  "classification": {
+    "predicted_class": "id",
+    "confidence": 0.3955879211425781,
+    "probabilities": {
+      "invoice": 0.24459975957870483,
+      "receipt": 0.2166922241449356,
+      "id": 0.3955879211425781,
+      "form": 0.14312011003494263
+    }
+  },
+  "regions": [
+    {
+      "box": [
+        193,
+        530,
+        738,
+        1120
+      ],
+      "class": "person",
+      "text": "",
+      "confidence": 0
+    }
+  ],
+  "full_text": "Hrdl €F efrh &r galeldt INDIANINSTTTUTEOF INFORMATION TECHNOLOGY GUWAHATT 2 HILLOL PRATIM Name KALITA Programme 0 MTech (CSE) Roll No. 0 2521511 Date of Birth : 27.12.2002 Valid to 30/06/2027 Oulul Holder'$ Signature Registrar Issue No. : PG/2025/2521511 Up 25~"
+}
