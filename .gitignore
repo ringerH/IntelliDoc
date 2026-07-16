@@ -30,3 +30,7 @@ yolov8n.onnx
 .vscode/
 .idea/
 .gemini/
+
+# Interviewer guide and implementation plan
+interviewer_guide.md
+implementation_plan.md
